@@ -1,2 +1,2 @@
 # react-landing-page
-A react landing page app
+A landing page build with `react` and `chakra ui`
