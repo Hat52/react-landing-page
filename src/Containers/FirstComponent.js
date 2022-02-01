@@ -6,7 +6,7 @@ export default function main(){
         <React.Fragment>
             <FirstComponent/>
             <Grid  h='322px' ml="213px" mr="213px" templateRows='repeat(2, 1fr)'>
-                <GridItem pl={"20%"} pr={"20%"} pt={10}>
+                <GridItem display="flex" alignItems="center" justifyContent="center">
                     <Heading width={"80%"} color="#133063" textAlign="center" fontWeight={700} fontSize={30} fontFamily="inter" size='4xl' textStyles='h1'>
                         Questions explained agreeable preferred strangers too him her son
                     </Heading>

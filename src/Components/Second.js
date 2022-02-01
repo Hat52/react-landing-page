@@ -5,38 +5,45 @@ import CardBG1 from '../assests/img/Cardbg1.png'
 import CardBG2 from '../assests/img/Cardbg2.png'
 export default function Second(){
     const cardProps = {
-        w:"30%",
+        w:"100%",
         bg:'white',
-        h:"30%",
-        mt:"-15%",
-        
-
+        h:"60%",
+        backgroundImage:CardBG1,
+        borderRadius:'5px'
     }
     const cardProps2 = {
-        w:"30%",
+        w:"100%",
         bg:'white',
-        h:"30%",
-        mt:"10%",
-        ml:"40%"
+        h:"60%",
+        backgroundImage:CardBG2,
+        borderRadius:'5px'
     }
     const cardProps3 = {
-        w:"30%",
+        w:"46%",
         bg:'white',
-        h:"30%",
-        mt:"10%",
-        ml:"15%"
+        h:"67%",
+        backgroundImage:CardBG1,
+        borderRadius:'5px'
+
+        
     }
     return(
-        <Grid  h='801px' templateColumns='repeat(3, 1fr)'>
-            <GridItem  w="100%" bg='transparent' pl={50} pt={443} >
+        <Grid   templateColumns='repeat(3, 1fr)' >
+            <GridItem  w="100%"  pl={50} pt={443} >
                 <Heading  fontWeight={300} fontSize={88} fontFamily="inter" color="#151C26" size='4xl' textStyles='h1'>Consistent Sustainable Growth</Heading>
             </GridItem>
-            <GridItem  bg='transparent' >
-                <Card cardProps={cardProps2}  bgImage={CardBG2}/>
-                <Card cardProps={cardProps}  bgImage={CardBG1}/>
-                <Card cardProps={cardProps3}  bgImage={CardBG1}/>
-            </GridItem>
-            <GridItem bg='transparent' pr={5}>
+            <Grid   templateRows='repeat(2, 1fr)' gap={4} templateColumns='repeat(2, 1fr)'>
+                <GridItem display="flex" alignItems="center" justifyContent="center">
+                    <Card cardProps={cardProps2}  />
+                </GridItem>
+                <GridItem display="flex" alignItems="top" justifyContent="center">
+                    <Card cardProps={cardProps} />
+                </GridItem>
+                <GridItem display="flex" colSpan={2}  alignItems="center" justifyContent="center">
+                    <Card cardProps={cardProps3} />
+                </GridItem>
+            </Grid>
+            <GridItem>
                 {/* <Image objectFit='cover'  src={im} alt='Dan Abramov' /> */}
             </GridItem>
         </Grid>

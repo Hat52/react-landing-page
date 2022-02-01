@@ -1,10 +1,11 @@
-import {FirstComponent,SecondComponent,ThirdComponent} from './Pages'
+import {FirstComponent,SecondComponent,ThirdComponent,FourthComponent} from './Containers'
 function App() {
   return (
     <div className="App">
      <FirstComponent/>
      <SecondComponent/>
      <ThirdComponent/>
+     <FourthComponent/>
     </div>
   );
 }
