@@ -10,7 +10,8 @@ export default function FourthComponent(){
         h:"260px",
         borderSizing:'border-box',
         borderRadius:"12px",
-        boxShadow:" rgba(0, 0, 0, 0.16) 0px 1px 4px"
+        boxShadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px"
+        
     }
     return(
         <Grid templateColumns='repeat(4, 1fr)' gap={4} h="800px" templateRows='repeat(2, 1fr)'>
