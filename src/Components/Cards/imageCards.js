@@ -7,15 +7,15 @@ const theme = extendTheme({
         }
     }
 })
-export default function Cards({cardProps,children}){
+export default function Cards({cardProps,cardContent}){
     return(
         <Box {...cardProps} display="grid" alignItems="center" templateRows='repeat(4, 1fr)' justifyContent="center" >
             <GridItem display="flex" justifyContent="center">
-                <Avatar name='Dan Abrahmov' src='https://bit.ly/dan-abramov'/>
+                <Avatar name={cardContent.name} src={cardContent.src}/>
             </GridItem>
             <GridItem display="flex" justifyContent="center" alignItems="center">
                 <Text  width="80%" textAlign="center">
-                    Though wished merits or be. Alone visit use these smart rooms ham
+                    {cardContent.text}
                 </Text>    
             </GridItem>
             <GridItem display="flex" justifyContent="center" alignItems="center">
@@ -24,7 +24,7 @@ export default function Cards({cardProps,children}){
             </GridItem>
             
             <GridItem display="flex" justifyContent="center">
-                <Text>Marketing Manager</Text>    
+                <Text>{cardContent.post}</Text>    
             </GridItem>
             
             
