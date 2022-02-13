@@ -10,23 +10,24 @@ export default function FifthComponent(){
         h:"50vh",
         borderSizing:'border-box',
         borderRadius:"12px",
-        boxShadow:"rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset"
+        boxShadow:"rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
+        padding:"8px"
     }
     return(
         <Grid templateRows='repeat(3, 1fr)' templateColumns='repeat(3, 1fr)' h="auto">
             <GridItem display="flex" alignItems='center' justifyContent="center" rowSpan='2'>
                 <Cards cardProps={cardProps}>
-                    <CardGrid Icon={MinusIcon}  width={"300px"} text={"Wished he entire esteem mr oh by. Possible bed you pleasure civility boy elegance ham. He prevent request by if in pleased. Picture too and concern has was comfort. Ten difficult resembled eagerness nor. Same park bore on be."}/>        
+                    <CardGrid Icon={MinusIcon}  width={"100%"} text={"Wished he entire esteem mr oh by. Possible bed you pleasure civility boy elegance ham. He prevent request by if in pleased. Picture too and concern has was comfort. Ten difficult resembled eagerness nor. Same park bore on be."}/>        
                 </Cards>
             </GridItem>
             <GridItem display="flex" alignItems='center' justifyContent="center" rowSpan='2' >
                 <Cards cardProps={cardProps} >
-                    <CardGrid Icon={MinusIcon} width={"300px"} text={"Wished he entire esteem mr oh by. Possible bed you pleasure civility boy elegance ham. He prevent request by if in pleased. Picture too and concern has was comfort. Ten difficult resembled eagerness nor. Same park bore on be."}/>        
+                    <CardGrid Icon={MinusIcon} width={"100%"} text={"Wished he entire esteem mr oh by. Possible bed you pleasure civility boy elegance ham. He prevent request by if in pleased. Picture too and concern has was comfort. Ten difficult resembled eagerness nor. Same park bore on be."}/>        
                 </Cards>
             </GridItem>
             <GridItem display="flex" alignItems='center' justifyContent="center" rowSpan='2'>
                 <Cards cardProps={cardProps} >
-                    <CardGrid Icon={MinusIcon} width={"300px"} text={"Wished he entire esteem mr oh by. Possible bed you pleasure civility boy elegance ham. He prevent request by if in pleased. Picture too and concern has was comfort. Ten difficult resembled eagerness nor. Same park bore on be."}/>        
+                    <CardGrid Icon={MinusIcon} width={"100%"} text={"Wished he entire esteem mr oh by. Possible bed you pleasure civility boy elegance ham. He prevent request by if in pleased. Picture too and concern has was comfort. Ten difficult resembled eagerness nor. Same park bore on be."}/>        
                 </Cards>
             </GridItem>
             <GridItem display="flex" alignItems="center"  justifyContent="center">
