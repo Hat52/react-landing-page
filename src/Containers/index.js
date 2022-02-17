@@ -5,6 +5,7 @@ import FourthComponent from './FourthComponent/FourthComponent'
 import FifthComponent from './FifthComponent'
 import SixthComponent from './SixthComponent'
 import SeventhComponent from './SeventhComponent'
+import EightComponent from './EightComponent'
 export {
     FirstComponent,
     SecondComponent,
@@ -12,5 +13,6 @@ export {
     FourthComponent,
     FifthComponent,
     SixthComponent,
-    SeventhComponent
+    SeventhComponent,
+    EightComponent
 }

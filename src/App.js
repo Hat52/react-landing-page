@@ -1,4 +1,4 @@
-import {FirstComponent,SecondComponent,ThirdComponent,FourthComponent,FifthComponent,SixthComponent,SeventhComponent} from './Containers'
+import {FirstComponent,SecondComponent,ThirdComponent,FourthComponent,FifthComponent,SixthComponent,SeventhComponent,EightComponent} from './Containers'
 function App() {
   return (
     <div className="App">
@@ -9,6 +9,7 @@ function App() {
      <FifthComponent/>
      <SixthComponent/>
      <SeventhComponent/>
+     <EightComponent/>
     </div>
   );
 }
